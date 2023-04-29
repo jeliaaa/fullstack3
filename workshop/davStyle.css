@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    font-family: 'Poppins', sans-serif;
+}
+.carousel.slick-initialized.slick-slider img{
+    width: 60px;
+    height: 60px;
+}
+.carousel{
+    width: 70%;
+    display: flex;
+}
+.carousel.slick-initialized.slick-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.carousel.slick-initialized.slick-slider button{
+    width: 30px;
+    height: 20px;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+}
+#card{
+    background-color: white;
+    height: 286px;
+    border-radius: 20px;
+    border-top: 5px solid orange; 
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
